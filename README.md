@@ -5,6 +5,7 @@ A full-stack web application to manage and track job applications in one place.
 ## Features
 
 - Add job applications
+- View all applications
 - Edit applications
 - Delete applications
 - Search applications
@@ -44,12 +45,11 @@ A full-stack web application to manage and track job applications in one place.
 ```text
 job-application-tracker/
 │
-├── frontend/
-│   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── app.js
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── app.js
 │
 ├── src/
 │   └── main/
@@ -62,7 +62,6 @@ job-application-tracker/
 │       │               └── repository/
 │       │
 │       └── resources/
-│           ├── application.properties
 │           └── application.properties.example
 │
 ├── .gitignore
